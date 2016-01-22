@@ -4,7 +4,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
 
 body {
-    background-image: url('/img/quad.jpg');
+    background-image: url('img/quad.jpg');
+    background-color: lightgray;
     font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
 }
 

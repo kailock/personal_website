@@ -50,11 +50,23 @@ a:hover, a:active, a:link {
     text-decoration: none;
 }
 
-#resume, #contact {
+#resume, #contact, #aboutbox {
     background: rgba(255,255,255,0.7);
     filter: alpha(opacity=70); /*for IE8 and earlier*/
     border-radius: 25px;
     padding: 3em;
+    margin-top: 2%;
+}
+
+#aboutbox {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#aboutbox img {
+    width: 50%;
+    border-radius: 20%;
 }
 
 #resume:nth-child(n) {
@@ -120,7 +132,8 @@ ul.img-list {
 ul.img-list li {
     display: inline-block;
     height: 300px;
-    margin-right: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: 5%;
     position: relative;
     width: 150px;
@@ -154,6 +167,10 @@ span.text-content span {
     font-size: x-large;
 }
 
+.modal-body img {
+    padding: 1em;
+}
+
 @media screen and (min-width: 768px) {
     ol {
         text-align: right;
@@ -163,12 +180,26 @@ span.text-content span {
     #footer {
         text-align: right;
     }
+
+    ul.img-list li {
+        margin-right: 20%;
+    }
 }
 
 @media screen and (min-width: 992px) {
-
+    ul.img-list li {
+        margin-right: 5%;
+        /*margin-left: 1%;*/
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    ul.img-list li {
+        display: inline-block;
+        height: 300px;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        position: relative;
+        width: 150px;
+    }
 }

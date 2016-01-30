@@ -49,5 +49,12 @@ $(function(){
     $('a').popover({ selector: '[data-trigger="focus"]' });
 });
 
+//$('.btn')
+//    .popover()
+//    .click(function(e) {
+//        e.preventDefault();
+//        $(this).focus();
+//    });
+
 //$('[rel=tooltip]').tooltip();
 //$(document).on('focus', '[rel=tooltip]', function () { $(this).tooltip('show'); });

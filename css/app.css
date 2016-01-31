@@ -11,8 +11,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 5px;
 }
 
+/*#edu h5 {*/
+    /*margin-bottom: 0;*/
+/*}*/
 
 nav {
     background-color: #181C22;

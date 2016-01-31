@@ -49,6 +49,9 @@ $(function(){
     $('a').popover({ selector: '[data-trigger="focus"]' });
 });
 
+$(document).ready(function(){
+    $('[data-trigger="focus"]').focus();
+});
 //$('.btn')
 //    .popover()
 //    .click(function(e) {

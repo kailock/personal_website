@@ -14,9 +14,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
-/*#edu h5 {*/
-    /*margin-bottom: 0;*/
-/*}*/
+#edu {
+    font-size: 12pt;
+}
+
+#edu p {
+    margin: 0;
+    padding: 0;
+}
 
 nav {
     background-color: #181C22;

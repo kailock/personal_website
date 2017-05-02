@@ -47,18 +47,25 @@ nav li  {
 }
 
 a {
-    color: lightpink;
+    color: hotpink;
 }
 
 nav a {
     color: white;
 }
 
+
+
 .btn-default {
     color: black;
 }
 
 a:hover, a:active, a:link {
+     color: hotpink;
+     text-decoration: none;
+ }
+
+nav a:hover, a:active, a:link {
     color: lightpink;
     text-decoration: none;
 }
